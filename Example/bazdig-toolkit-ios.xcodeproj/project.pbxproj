@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* BZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* BZAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* BZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* BZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,6 +20,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		644A61EA935F9BB2C8CCCEB6 /* Pods_bazdig_toolkit_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AE65B0B66037B8EC3BFDFC /* Pods_bazdig_toolkit_ios_Example.framework */; };
+		75FF0B511C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF0B501C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F77EC45794A0044ED53FAEA6 /* Pods_bazdig_toolkit_ios_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A356A2FD5004AF1E1085BD /* Pods_bazdig_toolkit_ios_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -50,8 +50,6 @@
 		6003F59B195388D20070C39A /* bazdig-toolkit-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bazdig-toolkit-ios-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* BZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* BZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* BZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* BZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* bazdig-toolkit-ios_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bazdig-toolkit-ios_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,6 +57,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		75FF0B4F1C7B34AE00889218 /* BZFormScrollViewSubclassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFormScrollViewSubclassViewController.h; sourceTree = "<group>"; };
+		75FF0B501C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFormScrollViewSubclassViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8F94E95247F98D594B7DCC36 /* Pods-bazdig-toolkit-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bazdig-toolkit-ios_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bazdig-toolkit-ios_Tests/Pods-bazdig-toolkit-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D897EAFBC3B73B1669ACDD1 /* bazdig-toolkit-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "bazdig-toolkit-ios.podspec"; path = "../bazdig-toolkit-ios.podspec"; sourceTree = "<group>"; };
@@ -130,11 +130,10 @@
 		6003F593195388D20070C39A /* Example for bazdig-toolkit-ios */ = {
 			isa = PBXGroup;
 			children = (
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				75FF0B521C7B34B700889218 /* VCs */,
 				6003F59C195388D20070C39A /* BZAppDelegate.h */,
 				6003F59D195388D20070C39A /* BZAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* BZViewController.h */,
-				6003F5A6195388D20070C39A /* BZViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -180,6 +179,15 @@
 				E1742D9727490E061DB237E0 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		75FF0B521C7B34B700889218 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				75FF0B4F1C7B34AE00889218 /* BZFormScrollViewSubclassViewController.h */,
+				75FF0B501C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m */,
+			);
+			name = VCs;
 			sourceTree = "<group>";
 		};
 		F492CE20C13D7420ED5EBED9 /* Pods */ = {
@@ -391,7 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* BZAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* BZViewController.m in Sources */,
+				75FF0B511C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
