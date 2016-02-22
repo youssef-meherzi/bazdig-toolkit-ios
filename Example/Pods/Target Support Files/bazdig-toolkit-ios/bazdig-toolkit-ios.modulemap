@@ -1,0 +1,6 @@
+framework module bazdig_toolkit_ios {
+  umbrella header "bazdig-toolkit-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

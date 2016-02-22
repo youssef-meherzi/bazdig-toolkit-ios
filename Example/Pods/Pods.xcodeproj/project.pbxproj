@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101BB4220FF3605E72BF2870411F9B9D /* bazdig-toolkit-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FFD796E258D30273B4DF8A8D6AB836 /* bazdig-toolkit-ios-dummy.m */; };
+		27F4D1203EA120E1A1EE3B58348ED9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2973DE678E13702DEA987C2BF2AB4637 /* Pods-bazdig-toolkit-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB418163EEA834213F3056E6764DBE2 /* Pods-bazdig-toolkit-ios_Tests-dummy.m */; };
+		50527A795113A6844370DD4A8D370578 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D18E318F69D6FF2F74C444E4DD785F8 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD90C499BF5F739B844C687D7E77AD9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA52F1FB3B6C3FF0DDE75E92DFE5E3A /* ReplaceMe.m */; };
+		7D4B8DF672F0DD6DC12A12E22C90B342 /* bazdig-toolkit-ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB44578EE1F4B3CC140F841CB9CC42DA /* bazdig-toolkit-ios.bundle */; };
+		9112261034826FF1C7101F44E1DCA009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AF7329B586B643541B4228E6E9D8DFDD /* Pods-bazdig-toolkit-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25156B74FEA3A88293CB13D174EB6D1E /* Pods-bazdig-toolkit-ios_Example-dummy.m */; };
+		BB412488C16E4DB84B1FCA832D781DB6 /* Pods-bazdig-toolkit-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5347DDFA95992A5359520F667A32C02C /* Pods-bazdig-toolkit-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E774A8E4DB743879126479039DC1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F4806C99EE126F4753D1F9ED3A23B952 /* bazdig-toolkit-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F411000AE7CA9E34C4AB1E29E7E4BA /* bazdig-toolkit-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518E79D0C96B14522C867566ABB1EB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FC59CEB748CD1E12CB184E9BC96D70;
+			remoteInfo = "bazdig-toolkit-ios";
+		};
+		BA7AE6709CDAB95DC9F8D264D0EC29CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA001F17BAF6DFA5A73EB6EEFB84B13;
+			remoteInfo = "bazdig-toolkit-ios-bazdig-toolkit-ios";
+		};
+		CEB4759A273979ABB1E432574B90A6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FC59CEB748CD1E12CB184E9BC96D70;
+			remoteInfo = "bazdig-toolkit-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E776ACF924455F8E048A8CB819E22D /* Pods-bazdig-toolkit-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bazdig-toolkit-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		07EC64A7DD38DE4F25705313604AD064 /* Pods-bazdig-toolkit-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bazdig-toolkit-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1D4E674B379CA24ED55710FFE0DB5A63 /* Pods_bazdig_toolkit_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bazdig_toolkit_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25156B74FEA3A88293CB13D174EB6D1E /* Pods-bazdig-toolkit-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bazdig-toolkit-ios_Example-dummy.m"; sourceTree = "<group>"; };
+		26F411000AE7CA9E34C4AB1E29E7E4BA /* bazdig-toolkit-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "bazdig-toolkit-ios-umbrella.h"; sourceTree = "<group>"; };
+		2BA52F1FB3B6C3FF0DDE75E92DFE5E3A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		3D18E318F69D6FF2F74C444E4DD785F8 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bazdig-toolkit-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40A75BAC2F94F2CDED9E05B2B8F8759E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE624A6DED19E3AA7E5FBA8656BF46D /* Pods-bazdig-toolkit-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bazdig-toolkit-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5347DDFA95992A5359520F667A32C02C /* Pods-bazdig-toolkit-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bazdig-toolkit-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		54E2FA7B1835C0EAC4D0124F47B53675 /* Pods-bazdig-toolkit-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bazdig-toolkit-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EBCE05DA7650C2701C0ECC97ED69E76 /* bazdig_toolkit_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bazdig_toolkit_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FFD796E258D30273B4DF8A8D6AB836 /* bazdig-toolkit-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "bazdig-toolkit-ios-dummy.m"; sourceTree = "<group>"; };
+		655EA977510A96B3358872232C546BFB /* Pods-bazdig-toolkit-ios_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bazdig-toolkit-ios_Example-resources.sh"; sourceTree = "<group>"; };
+		6A5E29068224500A6C51EEEF3D61B3E1 /* bazdig-toolkit-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "bazdig-toolkit-ios-prefix.pch"; sourceTree = "<group>"; };
+		7F16C46EB514131F9B12A1D0AE63E2F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880A33E747870FF61F32A4072FADFF86 /* Pods-bazdig-toolkit-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bazdig-toolkit-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9316047C6F013C4EA8BAEFEEB87EDF36 /* Pods-bazdig-toolkit-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-bazdig-toolkit-ios_Tests.modulemap"; sourceTree = "<group>"; };
+		9A8355CC15337F50444B988E58E64BC5 /* Pods-bazdig-toolkit-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bazdig-toolkit-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A381CB62E752673788B57A77B9DFBBD8 /* Pods-bazdig-toolkit-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-bazdig-toolkit-ios_Example.modulemap"; sourceTree = "<group>"; };
+		A657A44E3DA222B2BC81CB3E1F185EF3 /* bazdig-toolkit-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "bazdig-toolkit-ios.modulemap"; sourceTree = "<group>"; };
+		A6C136B0F79DF271E5521991289CF0F3 /* Pods-bazdig-toolkit-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bazdig-toolkit-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ABB418163EEA834213F3056E6764DBE2 /* Pods-bazdig-toolkit-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bazdig-toolkit-ios_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C899F66AB0CC14B036DF396495A9FBD6 /* Pods_bazdig_toolkit_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bazdig_toolkit_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB9B85696A10D95A8A41FF2AA108C59 /* Pods-bazdig-toolkit-ios_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bazdig-toolkit-ios_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D13F9988822449928FA7D844999F23CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E7F1C72D06FF4DC4870EB36F364BC6 /* Pods-bazdig-toolkit-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bazdig-toolkit-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E328AD39F557087C2C2CFC878521EC63 /* bazdig-toolkit-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "bazdig-toolkit-ios.xcconfig"; sourceTree = "<group>"; };
+		EB44578EE1F4B3CC140F841CB9CC42DA /* bazdig-toolkit-ios.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bazdig-toolkit-ios.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE8F4549182791416C064394A01940A /* Pods-bazdig-toolkit-ios_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bazdig-toolkit-ios_Tests-resources.sh"; sourceTree = "<group>"; };
+		EF531CF8A23325E7D6170D83CC8E6A89 /* Pods-bazdig-toolkit-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bazdig-toolkit-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22314E2D7B1402D53E0FBB93E64199A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E24687878823D3E29F70AE729DC12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F4D1203EA120E1A1EE3B58348ED9F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EC3ACA9629481ACE7DA348180F5DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E774A8E4DB743879126479039DC1FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E314444F378662F54EBF0854472F1C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9112261034826FF1C7101F44E1DCA009 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A93959BAD9421A7CC985BA824AF2EA4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				325F8890F48F1018930F68ED7DADCA49 /* bazdig-toolkit-ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2505D65FA3691894467BAAD1AAF1ED71 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2BA52F1FB3B6C3FF0DDE75E92DFE5E3A /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		325F8890F48F1018930F68ED7DADCA49 /* bazdig-toolkit-ios */ = {
+			isa = PBXGroup;
+			children = (
+				4D27FF641E9576355F34F1A5542916F7 /* Pod */,
+				32DC4CA17F040C42C47E93BC32E9F30F /* Support Files */,
+			);
+			name = "bazdig-toolkit-ios";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		32DC4CA17F040C42C47E93BC32E9F30F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A657A44E3DA222B2BC81CB3E1F185EF3 /* bazdig-toolkit-ios.modulemap */,
+				E328AD39F557087C2C2CFC878521EC63 /* bazdig-toolkit-ios.xcconfig */,
+				64FFD796E258D30273B4DF8A8D6AB836 /* bazdig-toolkit-ios-dummy.m */,
+				6A5E29068224500A6C51EEEF3D61B3E1 /* bazdig-toolkit-ios-prefix.pch */,
+				26F411000AE7CA9E34C4AB1E29E7E4BA /* bazdig-toolkit-ios-umbrella.h */,
+				7F16C46EB514131F9B12A1D0AE63E2F6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/bazdig-toolkit-ios";
+			sourceTree = "<group>";
+		};
+		43B5553C781074BB89D86B4537D09652 /* Pods-bazdig-toolkit-ios_Example */ = {
+			isa = PBXGroup;
+			children = (
+				40A75BAC2F94F2CDED9E05B2B8F8759E /* Info.plist */,
+				A381CB62E752673788B57A77B9DFBBD8 /* Pods-bazdig-toolkit-ios_Example.modulemap */,
+				54E2FA7B1835C0EAC4D0124F47B53675 /* Pods-bazdig-toolkit-ios_Example-acknowledgements.markdown */,
+				880A33E747870FF61F32A4072FADFF86 /* Pods-bazdig-toolkit-ios_Example-acknowledgements.plist */,
+				25156B74FEA3A88293CB13D174EB6D1E /* Pods-bazdig-toolkit-ios_Example-dummy.m */,
+				07EC64A7DD38DE4F25705313604AD064 /* Pods-bazdig-toolkit-ios_Example-frameworks.sh */,
+				655EA977510A96B3358872232C546BFB /* Pods-bazdig-toolkit-ios_Example-resources.sh */,
+				5347DDFA95992A5359520F667A32C02C /* Pods-bazdig-toolkit-ios_Example-umbrella.h */,
+				06E776ACF924455F8E048A8CB819E22D /* Pods-bazdig-toolkit-ios_Example.debug.xcconfig */,
+				EF531CF8A23325E7D6170D83CC8E6A89 /* Pods-bazdig-toolkit-ios_Example.release.xcconfig */,
+			);
+			name = "Pods-bazdig-toolkit-ios_Example";
+			path = "Target Support Files/Pods-bazdig-toolkit-ios_Example";
+			sourceTree = "<group>";
+		};
+		4D27FF641E9576355F34F1A5542916F7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2505D65FA3691894467BAAD1AAF1ED71 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4E828852FD80FB5A92D012D900D420A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B5553C781074BB89D86B4537D09652 /* Pods-bazdig-toolkit-ios_Example */,
+				64382CD46F9B7C6A72E6A3E1E38EFE92 /* Pods-bazdig-toolkit-ios_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64382CD46F9B7C6A72E6A3E1E38EFE92 /* Pods-bazdig-toolkit-ios_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D13F9988822449928FA7D844999F23CC /* Info.plist */,
+				9316047C6F013C4EA8BAEFEEB87EDF36 /* Pods-bazdig-toolkit-ios_Tests.modulemap */,
+				9A8355CC15337F50444B988E58E64BC5 /* Pods-bazdig-toolkit-ios_Tests-acknowledgements.markdown */,
+				4FE624A6DED19E3AA7E5FBA8656BF46D /* Pods-bazdig-toolkit-ios_Tests-acknowledgements.plist */,
+				ABB418163EEA834213F3056E6764DBE2 /* Pods-bazdig-toolkit-ios_Tests-dummy.m */,
+				CCB9B85696A10D95A8A41FF2AA108C59 /* Pods-bazdig-toolkit-ios_Tests-frameworks.sh */,
+				ECE8F4549182791416C064394A01940A /* Pods-bazdig-toolkit-ios_Tests-resources.sh */,
+				3D18E318F69D6FF2F74C444E4DD785F8 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h */,
+				D9E7F1C72D06FF4DC4870EB36F364BC6 /* Pods-bazdig-toolkit-ios_Tests.debug.xcconfig */,
+				A6C136B0F79DF271E5521991289CF0F3 /* Pods-bazdig-toolkit-ios_Tests.release.xcconfig */,
+			);
+			name = "Pods-bazdig-toolkit-ios_Tests";
+			path = "Target Support Files/Pods-bazdig-toolkit-ios_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				1A93959BAD9421A7CC985BA824AF2EA4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8C082DC19687D08040D0E0C346DCBF11 /* Products */,
+				4E828852FD80FB5A92D012D900D420A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C082DC19687D08040D0E0C346DCBF11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB44578EE1F4B3CC140F841CB9CC42DA /* bazdig-toolkit-ios.bundle */,
+				5EBCE05DA7650C2701C0ECC97ED69E76 /* bazdig_toolkit_ios.framework */,
+				1D4E674B379CA24ED55710FFE0DB5A63 /* Pods_bazdig_toolkit_ios_Example.framework */,
+				C899F66AB0CC14B036DF396495A9FBD6 /* Pods_bazdig_toolkit_ios_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72D122F23421DECC65D5E95235A9601B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50527A795113A6844370DD4A8D370578 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A89ED56ECD3F3413D92C144A18C168F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4806C99EE126F4753D1F9ED3A23B952 /* bazdig-toolkit-ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2294A43149B7B21FA3CB19B17179396 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB412488C16E4DB84B1FCA832D781DB6 /* Pods-bazdig-toolkit-ios_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8750C73B810053B429510828EC1014AC /* Pods-bazdig-toolkit-ios_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D281A91F1B86C193C4CB1C9732E853 /* Build configuration list for PBXNativeTarget "Pods-bazdig-toolkit-ios_Tests" */;
+			buildPhases = (
+				3D4D68994A2CFC8F6A03065860179D75 /* Sources */,
+				53E24687878823D3E29F70AE729DC12B /* Frameworks */,
+				72D122F23421DECC65D5E95235A9601B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85D1F52DD5C54906C72D9E4EA1584875 /* PBXTargetDependency */,
+			);
+			name = "Pods-bazdig-toolkit-ios_Tests";
+			productName = "Pods-bazdig-toolkit-ios_Tests";
+			productReference = C899F66AB0CC14B036DF396495A9FBD6 /* Pods_bazdig_toolkit_ios_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AA001F17BAF6DFA5A73EB6EEFB84B13 /* bazdig-toolkit-ios-bazdig-toolkit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EEA6E0636EB6FCB9D2CDE6538639CB /* Build configuration list for PBXNativeTarget "bazdig-toolkit-ios-bazdig-toolkit-ios" */;
+			buildPhases = (
+				DBB7AEB0F1F0348C4E10595914CB54EB /* Sources */,
+				22314E2D7B1402D53E0FBB93E64199A3 /* Frameworks */,
+				087227CB31B5F1B87D657B9C6D3039C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bazdig-toolkit-ios-bazdig-toolkit-ios";
+			productName = "bazdig-toolkit-ios-bazdig-toolkit-ios";
+			productReference = EB44578EE1F4B3CC140F841CB9CC42DA /* bazdig-toolkit-ios.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AD88B10B2415E31827B9D677D85AF363 /* Pods-bazdig-toolkit-ios_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04AE3AD3B7689FE68E668C26A319B83 /* Build configuration list for PBXNativeTarget "Pods-bazdig-toolkit-ios_Example" */;
+			buildPhases = (
+				08D90E2BF79B5A1B7745289247EFC687 /* Sources */,
+				C3EC3ACA9629481ACE7DA348180F5DAF /* Frameworks */,
+				C2294A43149B7B21FA3CB19B17179396 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02020C7FD7C8EF0EFE351FDD7990970 /* PBXTargetDependency */,
+			);
+			name = "Pods-bazdig-toolkit-ios_Example";
+			productName = "Pods-bazdig-toolkit-ios_Example";
+			productReference = 1D4E674B379CA24ED55710FFE0DB5A63 /* Pods_bazdig_toolkit_ios_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1FC59CEB748CD1E12CB184E9BC96D70 /* bazdig-toolkit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AB5C31F1E81250D49D0403D63C2985 /* Build configuration list for PBXNativeTarget "bazdig-toolkit-ios" */;
+			buildPhases = (
+				5891A6E4D3352FC8D7E67EBA6990AA84 /* Sources */,
+				E314444F378662F54EBF0854472F1C08 /* Frameworks */,
+				83AE175CE407E6FF525DFC849CFB2DF2 /* Resources */,
+				9A89ED56ECD3F3413D92C144A18C168F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BD53F83D9DC6606AA9422A8C166B5A /* PBXTargetDependency */,
+			);
+			name = "bazdig-toolkit-ios";
+			productName = "bazdig-toolkit-ios";
+			productReference = 5EBCE05DA7650C2701C0ECC97ED69E76 /* bazdig_toolkit_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8C082DC19687D08040D0E0C346DCBF11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1FC59CEB748CD1E12CB184E9BC96D70 /* bazdig-toolkit-ios */,
+				9AA001F17BAF6DFA5A73EB6EEFB84B13 /* bazdig-toolkit-ios-bazdig-toolkit-ios */,
+				AD88B10B2415E31827B9D677D85AF363 /* Pods-bazdig-toolkit-ios_Example */,
+				8750C73B810053B429510828EC1014AC /* Pods-bazdig-toolkit-ios_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		087227CB31B5F1B87D657B9C6D3039C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AE175CE407E6FF525DFC849CFB2DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4B8DF672F0DD6DC12A12E22C90B342 /* bazdig-toolkit-ios.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D90E2BF79B5A1B7745289247EFC687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7329B586B643541B4228E6E9D8DFDD /* Pods-bazdig-toolkit-ios_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4D68994A2CFC8F6A03065860179D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2973DE678E13702DEA987C2BF2AB4637 /* Pods-bazdig-toolkit-ios_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5891A6E4D3352FC8D7E67EBA6990AA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101BB4220FF3605E72BF2870411F9B9D /* bazdig-toolkit-ios-dummy.m in Sources */,
+				6DD90C499BF5F739B844C687D7E77AD9 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB7AEB0F1F0348C4E10595914CB54EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BD53F83D9DC6606AA9422A8C166B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "bazdig-toolkit-ios-bazdig-toolkit-ios";
+			target = 9AA001F17BAF6DFA5A73EB6EEFB84B13 /* bazdig-toolkit-ios-bazdig-toolkit-ios */;
+			targetProxy = BA7AE6709CDAB95DC9F8D264D0EC29CC /* PBXContainerItemProxy */;
+		};
+		85D1F52DD5C54906C72D9E4EA1584875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "bazdig-toolkit-ios";
+			target = C1FC59CEB748CD1E12CB184E9BC96D70 /* bazdig-toolkit-ios */;
+			targetProxy = 518E79D0C96B14522C867566ABB1EB36 /* PBXContainerItemProxy */;
+		};
+		B02020C7FD7C8EF0EFE351FDD7990970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "bazdig-toolkit-ios";
+			target = C1FC59CEB748CD1E12CB184E9BC96D70 /* bazdig-toolkit-ios */;
+			targetProxy = CEB4759A273979ABB1E432574B90A6C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014DB6ECA4B87D5583597623E33C28E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E328AD39F557087C2C2CFC878521EC63 /* bazdig-toolkit-ios.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/bazdig-toolkit-ios/bazdig-toolkit-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/bazdig-toolkit-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/bazdig-toolkit-ios/bazdig-toolkit-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = bazdig_toolkit_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C4339149EE5DB7BFDC21F5193271B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E7F1C72D06FF4DC4870EB36F364BC6 /* Pods-bazdig-toolkit-ios_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-bazdig-toolkit-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bazdig-toolkit-ios_Tests/Pods-bazdig-toolkit-ios_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_bazdig_toolkit_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CA745270841B207110FEDC204DE3BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E776ACF924455F8E048A8CB819E22D /* Pods-bazdig-toolkit-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-bazdig-toolkit-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bazdig-toolkit-ios_Example/Pods-bazdig-toolkit-ios_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_bazdig_toolkit_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C06E1B0F3D1F7B72806B231D1DB1D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E328AD39F557087C2C2CFC878521EC63 /* bazdig-toolkit-ios.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "bazdig-toolkit-ios";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7586C889064B21E11E0FB6AF8BAA9941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E328AD39F557087C2C2CFC878521EC63 /* bazdig-toolkit-ios.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/bazdig-toolkit-ios/bazdig-toolkit-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/bazdig-toolkit-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/bazdig-toolkit-ios/bazdig-toolkit-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = bazdig_toolkit_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8961E5C22B5EDAA2E8C3F95A55311D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E328AD39F557087C2C2CFC878521EC63 /* bazdig-toolkit-ios.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "bazdig-toolkit-ios";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E5660DFB128DCCD5CC8360011028C023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C136B0F79DF271E5521991289CF0F3 /* Pods-bazdig-toolkit-ios_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-bazdig-toolkit-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bazdig-toolkit-ios_Tests/Pods-bazdig-toolkit-ios_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_bazdig_toolkit_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6E008A8C1149264FAE9143A36733FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF531CF8A23325E7D6170D83CC8E6A89 /* Pods-bazdig-toolkit-ios_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-bazdig-toolkit-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bazdig-toolkit-ios_Example/Pods-bazdig-toolkit-ios_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_bazdig_toolkit_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EEA6E0636EB6FCB9D2CDE6538639CB /* Build configuration list for PBXNativeTarget "bazdig-toolkit-ios-bazdig-toolkit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8961E5C22B5EDAA2E8C3F95A55311D62 /* Debug */,
+				5C06E1B0F3D1F7B72806B231D1DB1D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D281A91F1B86C193C4CB1C9732E853 /* Build configuration list for PBXNativeTarget "Pods-bazdig-toolkit-ios_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4339149EE5DB7BFDC21F5193271B9D /* Debug */,
+				E5660DFB128DCCD5CC8360011028C023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04AE3AD3B7689FE68E668C26A319B83 /* Build configuration list for PBXNativeTarget "Pods-bazdig-toolkit-ios_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA745270841B207110FEDC204DE3BEB /* Debug */,
+				E6E008A8C1149264FAE9143A36733FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AB5C31F1E81250D49D0403D63C2985 /* Build configuration list for PBXNativeTarget "bazdig-toolkit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014DB6ECA4B87D5583597623E33C28E8 /* Debug */,
+				7586C889064B21E11E0FB6AF8BAA9941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

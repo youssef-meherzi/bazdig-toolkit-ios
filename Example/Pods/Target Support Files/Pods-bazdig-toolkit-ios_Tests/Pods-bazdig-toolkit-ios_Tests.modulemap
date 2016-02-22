@@ -1,0 +1,6 @@
+framework module Pods_bazdig_toolkit_ios_Tests {
+  umbrella header "Pods-bazdig-toolkit-ios_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - bazdig-toolkit-ios (0.1.0)
+
+DEPENDENCIES:
+  - bazdig-toolkit-ios (from `../`)
+
+EXTERNAL SOURCES:
+  bazdig-toolkit-ios:
+    :path: ../
+
+SPEC CHECKSUMS:
+  bazdig-toolkit-ios: 188b37c16942622ac4bc629e689d50d70284091f
+
+COCOAPODS: 0.39.0

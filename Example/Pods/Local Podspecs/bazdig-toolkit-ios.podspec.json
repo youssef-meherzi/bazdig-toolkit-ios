@@ -1,0 +1,25 @@
+{
+  "name": "bazdig-toolkit-ios",
+  "version": "0.1.0",
+  "summary": "A short description of bazdig-toolkit-ios.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/bazdig-toolkit-ios",
+  "license": "MIT",
+  "authors": {
+    "Youssef Meherzi": "youssef.meherzi@backelite.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/bazdig-toolkit-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "bazdig-toolkit-ios": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
