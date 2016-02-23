@@ -20,6 +20,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		644A61EA935F9BB2C8CCCEB6 /* Pods_bazdig_toolkit_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AE65B0B66037B8EC3BFDFC /* Pods_bazdig_toolkit_ios_Example.framework */; };
+		75AA46331C7C898100197F61 /* BZFormScrollTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AA46321C7C898100197F61 /* BZFormScrollTableViewController.m */; };
 		75FF0B511C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF0B501C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F77EC45794A0044ED53FAEA6 /* Pods_bazdig_toolkit_ios_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A356A2FD5004AF1E1085BD /* Pods_bazdig_toolkit_ios_Tests.framework */; };
@@ -57,6 +58,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		75AA46311C7C898100197F61 /* BZFormScrollTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFormScrollTableViewController.h; sourceTree = "<group>"; };
+		75AA46321C7C898100197F61 /* BZFormScrollTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFormScrollTableViewController.m; sourceTree = "<group>"; };
 		75FF0B4F1C7B34AE00889218 /* BZFormScrollViewSubclassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFormScrollViewSubclassViewController.h; sourceTree = "<group>"; };
 		75FF0B501C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFormScrollViewSubclassViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 			children = (
 				75FF0B4F1C7B34AE00889218 /* BZFormScrollViewSubclassViewController.h */,
 				75FF0B501C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m */,
+				75AA46311C7C898100197F61 /* BZFormScrollTableViewController.h */,
+				75AA46321C7C898100197F61 /* BZFormScrollTableViewController.m */,
 			);
 			name = VCs;
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 			files = (
 				6003F59E195388D20070C39A /* BZAppDelegate.m in Sources */,
 				75FF0B511C7B34AE00889218 /* BZFormScrollViewSubclassViewController.m in Sources */,
+				75AA46331C7C898100197F61 /* BZFormScrollTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +533,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -543,6 +550,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

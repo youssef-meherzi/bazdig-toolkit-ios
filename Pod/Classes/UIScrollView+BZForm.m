@@ -11,8 +11,11 @@
 
 static char const * const kbHeightKey = "kbHeight";
 static char const * const initialBottomKey = "initialBottom";
+static char const * const tapGestureKey = "tapGesture";
 
 @implementation UIScrollView (BZForm)
+
+#pragma mark - Keyboard Listener
 
 - (void)registerListener {
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -23,6 +26,11 @@ static char const * const initialBottomKey = "initialBottom";
                                              selector:@selector(keyboardWillHide:)
                                                  name:UIKeyboardWillHideNotification
                                                object:nil];
+}
+
+-(void) unregisterListener {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
 }
 
 - (void)keyboardWillShow:(NSNotification *)sender {
@@ -59,19 +67,7 @@ static char const * const initialBottomKey = "initialBottom";
     }];
 }
 
-- (void) scrollToView:(UIView *) view {
-    __block CGFloat toPoint = view.frame.origin.y - (self.frame.size.height - self.kbHeight - view.frame.size.height) + 5;
-    if (toPoint > self.contentOffset.y) {
-        [UIView animateWithDuration:0.5 animations:^{
-            self.contentOffset = CGPointMake(0, toPoint);
-        }];
-    }
-}
-
--(void) unregisterListener {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
-}
+#pragma mark - Getters Setters
 
 - (CGFloat)kbHeight {
     return [objc_getAssociatedObject(self, kbHeightKey) floatValue];
@@ -87,6 +83,41 @@ static char const * const initialBottomKey = "initialBottom";
 
 - (void)setInitialBottom:(NSNumber *)value {
     objc_setAssociatedObject(self, initialBottomKey, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (UITapGestureRecognizer *)tapGesture {
+    return objc_getAssociatedObject(self, tapGestureKey);
+}
+
+- (void)setTapGesture:(UITapGestureRecognizer *)value {
+    objc_setAssociatedObject(self, tapGestureKey, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+#pragma mark - Helpers
+
+- (void) scrollToView:(UIView *) view {
+    __block CGFloat toPoint = view.frame.origin.y - (self.frame.size.height - self.kbHeight - view.frame.size.height) + 5;
+    if (toPoint > self.contentOffset.y) {
+        [UIView animateWithDuration:0.5 animations:^{
+            self.contentOffset = CGPointMake(0, toPoint);
+        }];
+    }
+}
+
+#pragma mark - Dismiss on Tap
+
+- (void)setDismissOnTapEnabled:(BOOL) enabled {
+    if (enabled && !self.tapGesture) {
+        self.tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(endInput)];
+        [self addGestureRecognizer:self.tapGesture];
+    } else if (self.tapGesture) {
+        [self removeGestureRecognizer:self.tapGesture];
+        self.tapGesture = nil;
+    }
+}
+
+-(void) endInput {
+    [self endEditing:YES];
 }
 
 @end

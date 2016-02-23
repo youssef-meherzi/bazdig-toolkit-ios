@@ -24,6 +24,10 @@
     return self;
 }
 
+- (void)setDismissOnTap:(BOOL)dismissOnTap {
+    [self setDismissOnTapEnabled:dismissOnTap];
+}
+
 -(void) dealloc {
     [self unregisterListener];
 }

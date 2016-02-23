@@ -11,4 +11,6 @@
 
 @interface BZFormScrollView : UIScrollView
 
+@property (assign, nonatomic) IBInspectable BOOL dismissOnTap;
+
 @end

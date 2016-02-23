@@ -11,9 +11,9 @@
 		27F4D1203EA120E1A1EE3B58348ED9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		2973DE678E13702DEA987C2BF2AB4637 /* Pods-bazdig-toolkit-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB418163EEA834213F3056E6764DBE2 /* Pods-bazdig-toolkit-ios_Tests-dummy.m */; };
 		50527A795113A6844370DD4A8D370578 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D18E318F69D6FF2F74C444E4DD785F8 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75FF0B481C7B2F4F00889218 /* BZFormScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF0B461C7B2F4F00889218 /* BZFormScrollView.h */; };
+		75FF0B481C7B2F4F00889218 /* BZFormScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF0B461C7B2F4F00889218 /* BZFormScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75FF0B491C7B2F4F00889218 /* BZFormScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF0B471C7B2F4F00889218 /* BZFormScrollView.m */; };
-		75FF0B4C1C7B2FE900889218 /* UIScrollView+BZForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF0B4A1C7B2FE900889218 /* UIScrollView+BZForm.h */; };
+		75FF0B4C1C7B2FE900889218 /* UIScrollView+BZForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF0B4A1C7B2FE900889218 /* UIScrollView+BZForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75FF0B4D1C7B2FE900889218 /* UIScrollView+BZForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF0B4B1C7B2FE900889218 /* UIScrollView+BZForm.m */; };
 		7D4B8DF672F0DD6DC12A12E22C90B342 /* bazdig-toolkit-ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB44578EE1F4B3CC140F841CB9CC42DA /* bazdig-toolkit-ios.bundle */; };
 		9112261034826FF1C7101F44E1DCA009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };

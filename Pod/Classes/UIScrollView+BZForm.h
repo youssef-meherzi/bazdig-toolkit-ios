@@ -15,4 +15,6 @@
 
 - (void)scrollToView:(UIView *) view;
 
+- (void)setDismissOnTapEnabled:(BOOL) enabled;
+
 @end
