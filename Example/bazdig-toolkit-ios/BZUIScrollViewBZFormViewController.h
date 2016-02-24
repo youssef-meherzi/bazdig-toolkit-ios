@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BZFormScrollTableViewController : UITableViewController
+@interface BZUIScrollViewBZFormViewController : UITableViewController
 
 @end

@@ -1,5 +1,5 @@
 //
-//  BZFormScrollViewSubclassViewController.h
+//  BZFormScrollViewViewController.h
 //  bazdig-toolkit-ios
 //
 //  Created by Youssef Meherzi on 22/02/2016.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BZFormScrollViewSubclassViewController : UIViewController
+@interface BZFormScrollViewViewController : UIViewController
 
 @end

@@ -11,6 +11,8 @@
 		27F4D1203EA120E1A1EE3B58348ED9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		2973DE678E13702DEA987C2BF2AB4637 /* Pods-bazdig-toolkit-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB418163EEA834213F3056E6764DBE2 /* Pods-bazdig-toolkit-ios_Tests-dummy.m */; };
 		50527A795113A6844370DD4A8D370578 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D18E318F69D6FF2F74C444E4DD785F8 /* Pods-bazdig-toolkit-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AA463A1C7DC8DF00197F61 /* NSDate+preview.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AA46381C7DC8DF00197F61 /* NSDate+preview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AA463B1C7DC8DF00197F61 /* NSDate+preview.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AA46391C7DC8DF00197F61 /* NSDate+preview.m */; };
 		75FF0B481C7B2F4F00889218 /* BZFormScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF0B461C7B2F4F00889218 /* BZFormScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75FF0B491C7B2F4F00889218 /* BZFormScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF0B471C7B2F4F00889218 /* BZFormScrollView.m */; };
 		75FF0B4C1C7B2FE900889218 /* UIScrollView+BZForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF0B4A1C7B2FE900889218 /* UIScrollView+BZForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,6 +65,8 @@
 		64FFD796E258D30273B4DF8A8D6AB836 /* bazdig-toolkit-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "bazdig-toolkit-ios-dummy.m"; sourceTree = "<group>"; };
 		655EA977510A96B3358872232C546BFB /* Pods-bazdig-toolkit-ios_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bazdig-toolkit-ios_Example-resources.sh"; sourceTree = "<group>"; };
 		6A5E29068224500A6C51EEEF3D61B3E1 /* bazdig-toolkit-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "bazdig-toolkit-ios-prefix.pch"; sourceTree = "<group>"; };
+		75AA46381C7DC8DF00197F61 /* NSDate+preview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+preview.h"; sourceTree = "<group>"; };
+		75AA46391C7DC8DF00197F61 /* NSDate+preview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+preview.m"; sourceTree = "<group>"; };
 		75FF0B461C7B2F4F00889218 /* BZFormScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFormScrollView.h; sourceTree = "<group>"; };
 		75FF0B471C7B2F4F00889218 /* BZFormScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFormScrollView.m; sourceTree = "<group>"; };
 		75FF0B4A1C7B2FE900889218 /* UIScrollView+BZForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BZForm.h"; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				75FF0B4E1C7B346000889218 /* Form ScrollView */,
+				75AA463C1C7DC9D600197F61 /* Categories */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -214,13 +219,22 @@
 			path = "Target Support Files/Pods-bazdig-toolkit-ios_Tests";
 			sourceTree = "<group>";
 		};
+		75AA463C1C7DC9D600197F61 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				75FF0B4A1C7B2FE900889218 /* UIScrollView+BZForm.h */,
+				75FF0B4B1C7B2FE900889218 /* UIScrollView+BZForm.m */,
+				75AA46381C7DC8DF00197F61 /* NSDate+preview.h */,
+				75AA46391C7DC8DF00197F61 /* NSDate+preview.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		75FF0B4E1C7B346000889218 /* Form ScrollView */ = {
 			isa = PBXGroup;
 			children = (
 				75FF0B461C7B2F4F00889218 /* BZFormScrollView.h */,
 				75FF0B471C7B2F4F00889218 /* BZFormScrollView.m */,
-				75FF0B4A1C7B2FE900889218 /* UIScrollView+BZForm.h */,
-				75FF0B4B1C7B2FE900889218 /* UIScrollView+BZForm.m */,
 			);
 			name = "Form ScrollView";
 			sourceTree = "<group>";
@@ -280,6 +294,7 @@
 			files = (
 				75FF0B4C1C7B2FE900889218 /* UIScrollView+BZForm.h in Headers */,
 				75FF0B481C7B2F4F00889218 /* BZFormScrollView.h in Headers */,
+				75AA463A1C7DC8DF00197F61 /* NSDate+preview.h in Headers */,
 				F4806C99EE126F4753D1F9ED3A23B952 /* bazdig-toolkit-ios-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +453,7 @@
 				75FF0B4D1C7B2FE900889218 /* UIScrollView+BZForm.m in Sources */,
 				101BB4220FF3605E72BF2870411F9B9D /* bazdig-toolkit-ios-dummy.m in Sources */,
 				75FF0B491C7B2F4F00889218 /* BZFormScrollView.m in Sources */,
+				75AA463B1C7DC8DF00197F61 /* NSDate+preview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

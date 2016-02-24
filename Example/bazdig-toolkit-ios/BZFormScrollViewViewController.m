@@ -1,14 +1,14 @@
 //
-//  BZFormScrollViewSubclassViewController.m
+//  BZFormScrollViewViewController.m
 //  bazdig-toolkit-ios
 //
 //  Created by Youssef Meherzi on 22/02/2016.
 //  Copyright © 2016 Youssef Meherzi. All rights reserved.
 //
 
-#import "BZFormScrollViewSubclassViewController.h"
+#import "BZFormScrollViewViewController.h"
 
-@interface BZFormScrollViewSubclassViewController()
+@interface BZFormScrollViewViewController()
 
 @property (weak, nonatomic) IBOutlet UITextField *firstnameField;
 @property (weak, nonatomic) IBOutlet UITextField *lastnameField;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation BZFormScrollViewSubclassViewController
+@implementation BZFormScrollViewViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

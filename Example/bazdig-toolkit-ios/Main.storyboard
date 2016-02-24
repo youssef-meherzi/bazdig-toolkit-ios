@@ -15,10 +15,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection headerTitle="FormScrollView" id="Vkq-y6-pOx">
+                            <tableViewSection id="Vkq-y6-pOx">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="CI7-a9-6it" style="IBUITableViewCellStyleDefault" id="Khw-us-nlc">
-                                        <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Khw-us-nlc" id="Cc3-A0-hJ0">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -38,7 +38,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="GaC-PU-G5G" style="IBUITableViewCellStyleDefault" id="fty-BL-xUr">
-                                        <rect key="frame" x="0.0" y="136" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fty-BL-xUr" id="YI0-c8-ng3">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -56,6 +56,25 @@
                                             <segue destination="N5b-4c-HdB" kind="push" id="vmz-1Q-fG5"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="8Be-E7-0hJ" style="IBUITableViewCellStyleDefault" id="lNT-eR-bnH">
+                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lNT-eR-bnH" id="aj5-te-sQt">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="NSDate+preview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Be-E7-0hJ">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="luy-BE-Xto" kind="push" id="PNA-A0-eFv"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -70,10 +89,57 @@
             </objects>
             <point key="canvasLocation" x="463" y="299"/>
         </scene>
+        <!--NSDate+preview-->
+        <scene sceneID="AWv-VP-7cO">
+            <objects>
+                <viewController id="luy-BE-Xto" customClass="BZNSDatePreviewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7T0-eX-VSj"/>
+                        <viewControllerLayoutGuide type="bottom" id="G7i-x8-7IW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UiK-Ux-y6f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="LfB-jL-LtG">
+                                <rect key="frame" x="0.0" y="64" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="478005822.85236001">
+                                    <!--2016-02-24 11:23:42 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="dateChanged" destination="luy-BE-Xto" eventType="valueChanged" id="jxl-0y-ajd"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axL-um-P3q">
+                                <rect key="frame" x="20" y="288" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LfB-jL-LtG" firstAttribute="top" secondItem="7T0-eX-VSj" secondAttribute="bottom" id="02k-R4-QMh"/>
+                            <constraint firstItem="LfB-jL-LtG" firstAttribute="leading" secondItem="UiK-Ux-y6f" secondAttribute="leading" id="DGk-4T-VcF"/>
+                            <constraint firstItem="axL-um-P3q" firstAttribute="leading" secondItem="UiK-Ux-y6f" secondAttribute="leading" constant="20" id="UYs-FO-vGQ"/>
+                            <constraint firstAttribute="trailing" secondItem="LfB-jL-LtG" secondAttribute="trailing" id="XV2-N0-Lw7"/>
+                            <constraint firstItem="axL-um-P3q" firstAttribute="top" secondItem="LfB-jL-LtG" secondAttribute="bottom" constant="8" id="o3r-M3-EGW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="NSDate+preview" id="jUV-SR-QnR"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="axL-um-P3q" id="ITU-04-kGW"/>
+                        <outlet property="datePicker" destination="LfB-jL-LtG" id="JLr-c6-Tc9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dge-AQ-hLZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913" y="990"/>
+        </scene>
         <!--UIScrollView+BZForm-->
         <scene sceneID="TMU-5P-Qg2">
             <objects>
-                <tableViewController id="N5b-4c-HdB" customClass="BZFormScrollTableViewController" sceneMemberID="viewController">
+                <tableViewController id="N5b-4c-HdB" customClass="BZUIScrollViewBZFormViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="BSp-Xj-hF6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -330,12 +396,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KL0-W9-Ikr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1350" y="-37"/>
+            <point key="canvasLocation" x="913" y="299"/>
         </scene>
         <!--BZFormScrollView-->
         <scene sceneID="f6b-r6-ZwN">
             <objects>
-                <viewController id="IdM-nQ-HNE" customClass="BZFormScrollViewSubclassViewController" sceneMemberID="viewController">
+                <viewController id="IdM-nQ-HNE" customClass="BZFormScrollViewViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kXU-EQ-Nte"/>
                         <viewControllerLayoutGuide type="bottom" id="J4P-g2-Y43"/>
@@ -502,7 +568,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0uz-5e-BUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="949" y="-37"/>
+            <point key="canvasLocation" x="913" y="-353"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fbz-AV-YIM">
